@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path
+        name="img1"
+        path="Android/data/com.example.RNU/files/Pictures"/>
+    <external-path
+        name="img2"
+        path="Android/data/com.example.RNU/files/Pictures"/>
+    <external-path
+        name="img3"
+        path="Android/data/com.example.RNU/files/Pictures"/>
+    <external-path
+        name="img4"
+        path="Android/data/com.example.RNU/files/Pictures"/>
+</paths>

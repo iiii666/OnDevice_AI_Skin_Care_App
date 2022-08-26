@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:gravity="center"
+    android:background="@drawable/splash_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="bottom"
+        android:background="#00ff0000"
+        android:weightSum="30">
+
+
+        <ImageButton
+            android:id="@+id/btn01"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:scaleType="fitCenter"
+            android:layout_weight="10"
+            android:src="@drawable/check_on_off"
+            android:background="@android:color/transparent"/>
+
+
+        <ImageButton
+            android:id="@+id/btn02"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+            android:scaleType="fitCenter"
+
+            android:layout_weight="10"
+            android:src="@drawable/result_on_off"
+            android:background="@android:color/transparent"/>
+
+
+        <ImageButton
+            android:id="@+id/btn03"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom"
+
+            android:scaleType="fitCenter"
+            android:layout_weight="10"
+            android:src="@drawable/setting_on_off"
+            android:background="@android:color/transparent"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

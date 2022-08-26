@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resultActivity"
+    android:orientation="vertical"
+    android:background="@drawable/result_list_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="130dp"></LinearLayout>
+
+
+    <android.widget.Button
+        android:id="@+id/r1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="가나다라 마바사"
+        android:textColor="@drawable/clickable_barword"
+        android:textStyle="bold"
+        android:background="@drawable/list_button_on_off"/>
+
+
+    <android.widget.Button
+        android:id="@+id/r2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="가나다라 마바사"
+        android:textColor="@drawable/clickable_barword"
+        android:textStyle="bold"
+        android:background="@drawable/list_button_on_off"/>
+
+    <android.widget.Button
+        android:id="@+id/r3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="가나다라 마바사"
+        android:textColor="@drawable/clickable_barword"
+        android:textStyle="bold"
+        android:background="@drawable/list_button_on_off" />
+
+    <android.widget.Button
+        android:id="@+id/r4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="가나다라 마바사"
+        android:textColor="@drawable/clickable_barword"
+        android:textStyle="bold"
+        android:background="@drawable/list_button_on_off" />
+
+    <android.widget.Button
+        android:id="@+id/r5"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="가나다라 마바사"
+        android:textColor="@drawable/clickable_barword"
+        android:textStyle="bold"
+        android:background="@drawable/list_button_on_off"/>
+
+    <android.widget.Button
+        android:id="@+id/r6"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="가나다라 마바사"
+        android:textColor="@drawable/clickable_barword"
+        android:textStyle="bold"
+        android:background="@drawable/list_button_on_off"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingTop="30dp"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"
+            android:gravity="left"></LinearLayout>
+        <ImageButton
+            android:id="@+id/btn_delete"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:src="@drawable/delete_button_off"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"></LinearLayout>
+        <ImageButton
+            android:id="@+id/btn_compar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:background="@android:color/transparent"
+            android:src="@drawable/comparison_button_off"/>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="40"></LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
